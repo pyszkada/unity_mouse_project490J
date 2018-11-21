@@ -12,9 +12,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Set.unity
     guid: 430b161fb9816a2429191b4fefb91f4c
   - enabled: 1
-    path: Assets/Scenes/Cornered_Scene4.unity
-    guid: aba0822a33f1ae540b8b26f0589042a0
-  - enabled: 1
     path: Assets/Scenes/Irritated_Scene2.unity
     guid: 82cfbfd11c87a9343802167a9d763041
   - enabled: 1
@@ -23,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Intro_Scene1.unity
     guid: df7b054584c73c04590aafed2899d99c
+  - enabled: 1
+    path: Assets/Scenes/Z Cornered.unity
+    guid: aba0822a33f1ae540b8b26f0589042a0
   m_configObjects: {}

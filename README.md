@@ -19,7 +19,7 @@ for all intensive purposes DO NOT TOUCH THE SET, unless:
 	- updating SceneManager
 
 
-# How to watch they flythrough: 
+# How to watch the video: 
 
 1. Make sure the only open scene is the Set.
 2. hit the play button at the center.

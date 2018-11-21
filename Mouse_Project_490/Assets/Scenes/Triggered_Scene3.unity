@@ -847,7 +847,6 @@ GameObject:
   - component: {fileID: 702299983}
   - component: {fileID: 702299982}
   - component: {fileID: 702299981}
-  - component: {fileID: 702299985}
   - component: {fileID: 702299984}
   m_Layer: 8
   m_Name: Main Camera
@@ -909,8 +908,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 702299977}
-  m_LocalRotation: {x: -0.4222401, y: 0.061873335, z: -0.028872808, w: 0.90390897}
-  m_LocalPosition: {x: -0.658, y: -0.066, z: -0.102}
+  m_LocalRotation: {x: 0.02362155, y: 0.824721, z: -0.020527782, w: 0.5494045}
+  m_LocalPosition: {x: -0.18514094, y: 0.217, z: -0.008234404}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1074,22 +1073,6 @@ MonoBehaviour:
   m_BeforeTransparentBundles: []
   m_BeforeStackBundles: []
   m_AfterStackBundles: []
---- !u!114 &702299985
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 702299977}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sharedProfile: {fileID: 11400000, guid: 29d69dfb29bdf8542ae094f545dd3c65, type: 2}
-  isGlobal: 1
-  blendDistance: 0
-  weight: 1
-  priority: 0
 --- !u!1 &773247951
 GameObject:
   m_ObjectHideFlags: 0

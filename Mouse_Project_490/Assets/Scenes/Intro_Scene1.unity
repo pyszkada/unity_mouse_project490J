@@ -90,7 +90,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -449,7 +449,6 @@ GameObject:
   - component: {fileID: 261916954}
   - component: {fileID: 261916956}
   - component: {fileID: 261916958}
-  - component: {fileID: 261916957}
   m_Layer: 8
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -510,8 +509,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 261916950}
-  m_LocalRotation: {x: -0.4222401, y: 0.061873335, z: -0.028872808, w: 0.90390897}
-  m_LocalPosition: {x: -0.658, y: -0.066, z: -0.102}
+  m_LocalRotation: {x: 0.0531314, y: 0.9321301, z: -0.15288457, w: 0.32393977}
+  m_LocalPosition: {x: -0.045999706, y: 0.5079998, z: 1.5610003}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -609,22 +608,6 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: Cinemachine.CinemachineBrain+VcamActivatedEvent, Cinemachine, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &261916957
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 261916950}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sharedProfile: {fileID: 11400000, guid: 29d69dfb29bdf8542ae094f545dd3c65, type: 2}
-  isGlobal: 1
-  blendDistance: 0
-  weight: 1
-  priority: 0
 --- !u!114 &261916958
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -636,7 +619,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 948f4100a11a5c24981795d21301da5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  volumeTrigger: {fileID: 261916953}
+  volumeTrigger: {fileID: 0}
   volumeLayer:
     serializedVersion: 2
     m_Bits: 256

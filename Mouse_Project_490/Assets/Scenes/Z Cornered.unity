@@ -171,7 +171,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 108769262}
-  m_LocalRotation: {x: 0.6777418, y: 0.08335778, z: 0.062052637, w: 0.7279197}
+  m_LocalRotation: {x: 0.6777418, y: 0.08335785, z: 0.062052544, w: 0.7279197}
   m_LocalPosition: {x: -0.1595059, y: 0.13080668, z: 0.2891922}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -883,7 +883,6 @@ GameObject:
   - component: {fileID: 973166257}
   - component: {fileID: 973166260}
   - component: {fileID: 973166262}
-  - component: {fileID: 973166261}
   m_Layer: 8
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -944,8 +943,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 973166256}
-  m_LocalRotation: {x: -0.4222401, y: 0.061873335, z: -0.028872808, w: 0.90390897}
-  m_LocalPosition: {x: -0.658, y: -0.066, z: -0.102}
+  m_LocalRotation: {x: 0.0531314, y: 0.9321301, z: -0.15288457, w: 0.32393977}
+  m_LocalPosition: {x: -0.045999706, y: 0.5079998, z: 1.5610003}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -987,22 +986,6 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: Cinemachine.CinemachineBrain+VcamActivatedEvent, Cinemachine, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &973166261
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 973166256}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sharedProfile: {fileID: 11400000, guid: 29d69dfb29bdf8542ae094f545dd3c65, type: 2}
-  isGlobal: 1
-  blendDistance: 0
-  weight: 1
-  priority: 0
 --- !u!114 &973166262
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1014,7 +997,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 948f4100a11a5c24981795d21301da5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  volumeTrigger: {fileID: 973166259}
+  volumeTrigger: {fileID: 0}
   volumeLayer:
     serializedVersion: 2
     m_Bits: 256
